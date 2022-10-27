@@ -1,0 +1,114 @@
+/* GRID FÖR KARAKTÄRERNA */
+.info1 {
+    display: grid;
+    grid-template-areas:
+    'a h2 b'
+    'c h3 d'
+    'saul kim mike'
+    'e knapp f';
+    column-gap: 0px;
+    row-gap: 0px;
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    justify-items: center;
+}
+.info1 h2 {
+    grid-area: h2;
+}
+.info1 h3 {
+    grid-area: h3;
+}
+.saul-photo {
+    grid-area: saul;
+}
+.kim-photo {
+    grid-area: kim;
+}
+.mike-photo {
+    grid-area: mike;
+}
+
+
+.knapp {
+    grid-area: knapp;
+}
+
+
+/* GRID FÖR GALLERIET */
+.galleri {
+    display: grid;
+    justify-content: space-evenly;
+    grid-template-areas: 
+    '1 2 3 4'
+    '5 6 7 8'
+    ;
+}
+
+
+/* MEDIA QUERYN FÖR MELLANSTORA SKÄRMAR (EX. PADDOR) */
+@media screen and (max-width: 880px) {
+
+    /* ÄNDRAR KARAKTÄR-GRID TILL 1 KOLUMN */
+    .info1{
+        display: grid;
+        grid-template-areas: 
+        'h2'
+        'h3'
+        'saul'
+        'kim'
+        'mike'
+        'knapp';
+    }
+
+
+    /* ÄNDRAR GALLERI-GRID TILL 2 KOLUMER */
+    .galleri {
+        display: grid;
+        grid-template-areas: 
+        '1 2'
+        '3 4'
+        '5 6';
+    }
+
+    .hide {
+        visibility: hidden;
+    }
+}
+
+
+/* MEDIA QUERYN FÖR SMÅ SKÄRMAR (MOBILTELEFONER) */
+@media screen and (max-width: 400px) {
+    .logo {
+        width: 180px;
+    }
+
+    .info1 img{
+        width: 250px;
+    }
+
+    .nav-links ul li a{
+        font-size: 16px;
+    }
+
+    /* ÄNDRAR GALLERI-GRID TILL 1 KOLUMN */
+    .galleri {
+        display: grid;
+        grid-template-areas: 
+        '1'
+        '2'
+        '3'
+        '4'
+        '5'
+        '6';
+    }
+
+    .info2 img {
+        padding: 0;
+        margin-bottom: 5%;
+    }
+
+    .hide {
+        display: none;
+    }
+}

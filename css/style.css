@@ -1,0 +1,226 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+/* KLASSEN FÖR MIN KNAPP SOM ANVÄNDS HÄR OCH DÄR */
+.knapp {
+    display: inline-block;
+    text-decoration: none;
+    color: rgb(4, 9, 30);
+    border: 1px solid rgb(4, 9, 30);
+    padding: 12px 34px;
+    font-size: 13px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+    transition: 1s;
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+.knapp:hover {
+    border: 1px solid rgba(206, 206, 206, 0.5);
+    background: rgba(206, 206, 206, 0.5);
+    transition: 0.5s;
+}
+
+
+/* INDEX:HTML */
+.header1 {
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url("https://images.wallpapersden.com/image/download/better-call-saul-saul-goodman_bWdsa2uUmZqaraWkpJRmbmdlrWZlbWU.jpg");
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+
+nav {
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+.logo {
+    width: 250px;
+    opacity: 50%;
+    padding-top: 5%;
+}
+
+
+.nav-links {
+    flex: 1;
+    text-align: right;
+}
+
+
+.nav-links ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+}
+
+
+.nav-links ul li a {
+    color: rgba(255, 255, 255, 0.5);
+    text-decoration: none;
+    font-size: 18px;
+}
+
+
+/* HOVER EFFEKT PÅ NAVIGATIONEN */
+.nav-links ul li::after {
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: rgba(255, 255, 255, 0.5);
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+.nav-links ul li:hover::after {
+    width: 100%;
+}
+
+
+.info1 {
+    background-color: gainsboro;
+    color: rgb(4, 9, 30);
+    max-width: 100%;
+    width: 100%;
+    border-bottom: 3px solid rgb(4, 9, 30);
+    text-align: center;
+}
+
+
+.info1 img {
+max-width: 45vh;
+max-height: 45vh;
+border-radius: 15px;
+}
+
+
+.info1 h2 {
+    padding-top: 70px;
+    padding-bottom: 2%;
+    font-size: 30px;
+}
+
+
+.info1 h3 {
+    color: rgba(4, 9, 30, 0.7);
+    padding-bottom: 10%;
+    font-size: 18px;
+}
+
+
+.info1 h4 {
+    padding-bottom: 10%;
+}
+
+
+.info1 div {
+    border: 5px solid rgb(206, 206, 206);
+    border-radius: 15px;
+    background-color: rgb(206, 206, 206);
+    padding: 3%;
+}
+
+
+.info2{
+    background-color: gainsboro;
+    color: rgb(4, 9, 30);
+    max-width: 100%;
+    width: 100%;
+    border-bottom: 3px solid rgb(4, 9, 30);
+    text-align: center;
+    border-bottom: 3px solid rgb(4, 9, 30);
+    
+}
+
+
+.info2 h2 {
+    padding-top: 70px;
+    padding-bottom: 2%;
+    font-size: 30px;
+}
+
+
+.galleri {
+    border: 5px solid rgb(206, 206, 206);
+    border-radius: 15px;
+    background-color: rgb(206, 206, 206);
+    width: 94%;
+    margin: auto;
+}
+
+
+.info2 img {
+    max-width: 40vh;
+    max-height: 350px;
+    padding: 5%;
+    border-radius: 20px;
+}
+
+
+
+
+
+/* KARAKT.HTML */
+.header2 {
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url("https://wallpaperaccess.com/full/7766621.jpg");
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}   
+
+
+/* GALLERI.HTML */
+.header3 {
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url("https://media.gq-magazine.co.uk/photos/5e8dae94cc49500008e692c3/master/pass/20200408-saul-10.jpg");
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+
+/* GUIDE-HTML */
+.header4 {
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url("https://images.ottplay.com/images/Better_Call_Saul_2015_show_photo_13.jpg");
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+
+.guide {
+    color: rgba(255, 255, 255, 0.5);
+    text-align: center;
+}
+
+
+.guide h2 {
+    margin-top: 60px;
+    margin-bottom: 10px;
+}
+
+
+.guide a {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.5);
+    display: block;
+    padding-top: 10px;
+}
