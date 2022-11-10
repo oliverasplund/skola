@@ -72,19 +72,29 @@
     }
 
     .hide {
-        visibility: hidden;
+        display: none;
     }
 }
 
 
 /* MEDIA QUERYN FÖR SMÅ SKÄRMAR (MOBILTELEFONER) */
 @media screen and (max-width: 400px) {
+    .body {
+        overflow-x: hidden;
+    }
+
+
     .logo {
         width: 180px;
     }
 
     .info1 img{
         width: 250px;
+    }
+
+
+    .h1 {
+        display: none;
     }
 
     .nav-links ul li a{
@@ -111,4 +121,6 @@
     .hide {
         display: none;
     }
+
+
 }

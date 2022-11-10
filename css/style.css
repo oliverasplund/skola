@@ -31,7 +31,7 @@
 .header1 {
     min-height: 100vh;
     width: 100%;
-    background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url("https://images.wallpapersden.com/image/download/better-call-saul-saul-goodman_bWdsa2uUmZqaraWkpJRmbmdlrWZlbWU.jpg");
+    background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url("../img/background1.jpg");
     background-position: center;
     background-size: cover;
     position: relative;
@@ -87,6 +87,14 @@ nav {
 }
 .nav-links ul li:hover::after {
     width: 100%;
+}
+
+
+.header1 h1 {
+    color: rgba(255, 255, 255, 0.5);
+    text-align: center;
+    margin-top: 250px;
+    font-size: 30px;
 }
 
 
@@ -177,7 +185,7 @@ border-radius: 15px;
 .header2 {
     min-height: 100vh;
     width: 100%;
-    background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url("https://wallpaperaccess.com/full/7766621.jpg");
+    background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url("../img/background2.jpg");
     background-position: center;
     background-size: cover;
     position: relative;
@@ -188,7 +196,7 @@ border-radius: 15px;
 .header3 {
     min-height: 100vh;
     width: 100%;
-    background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url("https://media.gq-magazine.co.uk/photos/5e8dae94cc49500008e692c3/master/pass/20200408-saul-10.jpg");
+    background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url("../img/background3.jpg");
     background-position: center;
     background-size: cover;
     position: relative;
@@ -199,7 +207,7 @@ border-radius: 15px;
 .header4 {
     min-height: 100vh;
     width: 100%;
-    background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url("https://images.ottplay.com/images/Better_Call_Saul_2015_show_photo_13.jpg");
+    background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url("../img/background4.jpg");
     background-position: center;
     background-size: cover;
     position: relative;
